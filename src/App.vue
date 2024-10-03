@@ -31,8 +31,8 @@
           class="mx-auto"
           max-width="1110"
           style="
-            position: absolute;
-            top: 590px;
+            position: fixed;
+            bottom: 20px;
             left: 42.5%;
             transform: translateX(-50%);
             width: 1410px;
@@ -175,8 +175,8 @@
     <v-file-input
       ref="fileInput"
       style="
-        position: absolute;
-        top: 665px;
+        position: fixed;
+        bottom: 15px;
         left: 91.9%;
         transform: translateX(-50%);
         width: 186px;
@@ -198,8 +198,8 @@
     <v-combobox
       v-model="selectedStyle"
       style="
-        position: absolute;
-        top: 600px;
+        position: fixed;
+        bottom: 80px;
         left: 92.2%;
         transform: translateX(-50%);
         width: 180px;
