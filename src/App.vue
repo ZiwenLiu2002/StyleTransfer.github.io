@@ -77,7 +77,7 @@
                   "
                   v-bind="activatorProps"
                   icon
-                  color="#f9ece4"
+                  color="#deeafc"
                 >
                   <v-icon color="#9DA8AF" style="font-size: 14px">mdi-help</v-icon>
                 </v-btn>
