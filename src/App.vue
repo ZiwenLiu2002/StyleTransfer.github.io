@@ -29,9 +29,9 @@
         <v-card
           color="#f6e7eb"
           class="mx-auto"
-          style="position: absolute; bottom: 20px; left: 1.2%; width: 82%; height: 14.5vh"
+          style="position: fixed; bottom: 20px; left: 1.2%; width: 82%; height: 14.5vh"
         >
-          <v-card-text>
+          <v-card-item>
             <v-textarea
               v-model="text"
               bg-color="#f6e7f3"
@@ -136,7 +136,7 @@
                 </v-card>
               </template>
             </v-dialog>
-          </v-card-text>
+          </v-card-item>
         </v-card>
       </v-col>
     </v-row>
@@ -184,7 +184,7 @@
     <div class="content"></div>
     <v-combobox
       v-model="selectedStyle"
-      style="position: fixed; bottom: calc(15.5vh - 52px); right: 1.2%; width: 14%"
+      style="position: fixed; bottom: calc(15.5vh - 58px); right: 1.2%; width: 14%"
       density="compact"
       clearable
       label="Styles"
