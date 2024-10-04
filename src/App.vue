@@ -29,7 +29,7 @@
         <v-card
           color="#f6e7eb"
           class="mx-auto"
-          style="position: absolute; bottom: 20px; left: 1.2%; width: 82%; height: 16.5vh"
+          style="position: absolute; bottom: 20px; left: 1.2%; width: 82%; height: 14.5vh"
         >
           <v-card-text>
             <v-textarea
@@ -262,7 +262,7 @@ export default {
 
 <style scoped>
 .chat-container {
-  height: 72vh;
+  height: 69vh;
   width: 97.7%;
   overflow-y: auto;
   padding: 10px;
