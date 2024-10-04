@@ -29,14 +29,7 @@
         <v-card
           color="#f6e7eb"
           class="mx-auto"
-          max-width="1110"
-          style="
-            position: fixed;
-            bottom: 20px;
-            left: 42.5%;
-            transform: translateX(-50%);
-            width: 150%;
-          "
+          style="position: fixed; bottom: 20px; transform: translateX(-0%); width: 83%"
         >
           <v-card-text>
             <v-textarea
@@ -174,13 +167,7 @@
   <div>
     <v-file-input
       ref="fileInput"
-      style="
-        position: fixed;
-        bottom: 15px;
-        left: 91.9%;
-        transform: translateX(-50%);
-        width: 14%;
-      "
+      style="position: absolute; right: 1.2%; bottom: 12px; width: 13.5%"
       density="compact"
       clearable
       variant="solo"
@@ -197,13 +184,7 @@
     <div class="content"></div>
     <v-combobox
       v-model="selectedStyle"
-      style="
-        position: fixed;
-        bottom: 80px;
-        left: 92.2%;
-        transform: translateX(-50%);
-        width: 13%;
-      "
+      style="position: fixed; bottom: 70px; position: absolute; right: 1.2%; width: 13%"
       density="compact"
       clearable
       label="Styles"
