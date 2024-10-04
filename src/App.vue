@@ -167,7 +167,7 @@
   <div>
     <v-file-input
       ref="fileInput"
-      style="position: absolute; right: 1.2%; bottom: 12px; width: 14.5%"
+      style="position: fixed; right: 1.2%; bottom: 12px; width: 14.5%"
       density="compact"
       clearable
       variant="solo"
@@ -184,7 +184,7 @@
     <div class="content"></div>
     <v-combobox
       v-model="selectedStyle"
-      style="position: fixed; bottom: 70px; position: absolute; right: 1.2%; width: 14%"
+      style="position: fixed; bottom: calc(15.5vh - 52px); right: 1.2%; width: 14%"
       density="compact"
       clearable
       label="Styles"
