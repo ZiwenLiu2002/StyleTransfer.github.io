@@ -60,7 +60,13 @@
               }"
               :loading="loading"
               class="flex-grow-1"
-              style="position: absolute; top: 43px; right: 1.2%; height: 40px"
+              style="
+                position: absolute;
+                bottom: 20px;
+                top: 5vh;
+                right: 1.2%;
+                height: 40px;
+              "
               density="compact"
             >
               <strong style="color: #737c75">Send</strong>
