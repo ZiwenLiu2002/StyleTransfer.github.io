@@ -43,7 +43,7 @@
               row-height="15"
               rows="3"
               :disabled="fileSelected"
-              style="position: absolute; width: 89%; height: 10vh; margin: 0.4vh 0"
+              style="position: absolute; width: 89%; height: 10vh"
             >
               <template v-slot:label>
                 <span style="color: #12644e; font-size: 18px">Your text here...</span>
@@ -59,7 +59,7 @@
             }"
             :loading="loading"
             class="flex-grow-1"
-            style="position: absolute; top: 4vh; right: 3vh; height: 5vh"
+            style="position: absolute; top: 4.5vh; right: 3vh; height: 5vh"
             density="compact"
           >
             <strong style="color: #737c75">Send</strong>
