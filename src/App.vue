@@ -43,7 +43,7 @@
               row-height="15"
               rows="3"
               :disabled="fileSelected"
-              style="position: absolute; width: 89%; height: 10vh; margin: 2px 0"
+              style="position: absolute; width: 89%; height: 10vh"
             >
               <template v-slot:label>
                 <span style="color: #12644e; font-size: 18px">Your text here...</span>
@@ -59,7 +59,7 @@
             }"
             :loading="loading"
             class="flex-grow-1"
-            style="position: absolute; bottom: 20px; top: 5vh; right: 1.5%; height: 40px"
+            style="position: absolute; top: 5vh; right: 1.8vh; height: 5vh"
             density="compact"
           >
             <strong style="color: #737c75">Send</strong>
@@ -165,7 +165,7 @@
   <div>
     <v-file-input
       ref="fileInput"
-      style="position: fixed; right: 1.2%; bottom: 12px; width: 14.5%"
+      style="position: fixed; right: 1.2%; bottom: 1.6vh; width: 14.5%"
       density="compact"
       clearable
       variant="solo"
@@ -182,7 +182,7 @@
     <div class="content"></div>
     <v-combobox
       v-model="selectedStyle"
-      style="position: fixed; bottom: calc(15.5vh - 58px); right: 1.2%; width: 14%"
+      style="position: fixed; bottom: calc(15.5vh - 7.5vh); right: 1.2%; width: 14%"
       density="compact"
       clearable
       label="Styles"
