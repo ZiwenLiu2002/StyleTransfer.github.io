@@ -35,7 +35,7 @@
             bottom: 20px;
             left: 42.5%;
             transform: translateX(-50%);
-            width: 1410px;
+            width: 100%;
           "
         >
           <v-card-text>
@@ -179,7 +179,7 @@
         bottom: 15px;
         left: 91.9%;
         transform: translateX(-50%);
-        width: 186px;
+        width: 14%;
       "
       density="compact"
       clearable
@@ -202,7 +202,7 @@
         bottom: 80px;
         left: 92.2%;
         transform: translateX(-50%);
-        width: 180px;
+        width: 13%;
       "
       density="compact"
       clearable
@@ -281,13 +281,13 @@ export default {
 
 <style scoped>
 .chat-container {
-  height: 460px;
-  width: 1314px;
+  height: 65vh;
+  width: 97.7%;
   overflow-y: auto;
   padding: 10px;
   background-color: #f8f8f8;
   border-radius: 10px;
-  position: absolute;
+  position: fixed;
   top: 110px;
   left: 50%;
   transform: translateX(-50%);
