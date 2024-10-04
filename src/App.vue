@@ -43,7 +43,7 @@
               row-height="15"
               rows="3"
               :disabled="fileSelected"
-              style="position: absolute; width: 89%; height: 10vh; margin: 6px 0"
+              style="position: absolute; width: 89%; height: 10vh; margin: 0.35vh 0"
             >
               <template v-slot:label>
                 <span style="color: #12644e; font-size: 18px">Your text here...</span>
@@ -249,10 +249,10 @@ export default {
       }
     },
     addEmptyBubble() {
-      // Simulate a delay before adding an empty chat bubble
+      // Simulate a delay before adding an automated reply
       setTimeout(() => {
-        this.messages.push({ text: "", isUser: false }); // Add an empty chat bubble
-      }, 1000); // Set a delay for automatic response
+        this.messages.push({ text: "This is an automated reply.", isUser: false });
+      }, 500);
     },
   },
 };
