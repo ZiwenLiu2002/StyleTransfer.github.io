@@ -60,7 +60,7 @@
               }"
               :loading="loading"
               class="flex-grow-1"
-              style="position: absolute; top: 4.5vh; right: 3vh; height: 5vh"
+              style="position: absolute; top: 4.3vh; right: 3vh; height: 5vh"
               density="compact"
             >
               <strong style="color: #737c75">Send</strong>
