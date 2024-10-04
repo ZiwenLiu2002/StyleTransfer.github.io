@@ -43,7 +43,7 @@
               row-height="15"
               rows="3"
               :disabled="fileSelected"
-              style="width: 100%; max-width: 980px; height: 90px; margin: 2px 0"
+              style="width: 100%; height: 90px; margin: 2px 0"
             >
               <template v-slot:label>
                 <span style="color: #12644e; font-size: 18px">Your text here...</span>
