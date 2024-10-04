@@ -49,100 +49,92 @@
                 <span style="color: #12644e; font-size: 18px">Your text here...</span>
               </template></v-textarea
             >
-            <v-btn
-              color="#fcf5de"
-              @click="onClick"
-              :disabled="
-                loading || (text.trim() === '' && !fileSelected) || !selectedStyle
-              "
-              :class="{
-                'custom-disabled': loading || (text.trim() === '' && !fileSelected),
-              }"
-              :loading="loading"
-              class="flex-grow-1"
-              style="
-                position: absolute;
-                bottom: 20px;
-                top: 5vh;
-                right: 1.2%;
-                height: 40px;
-              "
-              density="compact"
-            >
-              <strong style="color: #737c75">Send</strong>
-            </v-btn>
-            <v-dialog max-width="500">
-              <template v-slot:activator="{ props: activatorProps }">
-                <v-btn
-                  style="
-                    position: absolute;
-                    right: 0.5%;
-                    top: 5px;
-                    width: 18px;
-                    height: 18px;
-                  "
-                  v-bind="activatorProps"
-                  icon
-                  color="#f9ece4"
-                >
-                  <v-icon color="#9DA8AF" style="font-size: 14px">mdi-help</v-icon>
-                </v-btn>
-              </template>
-
-              <template v-slot:default="{ isActive }">
-                <v-card color="#fafcfd">
-                  <v-card-title
-                    style="
-                      color: #4e6e62;
-                      justify-content: center;
-                      text-align: center;
-                      padding-top: 25px;
-                    "
-                  >
-                    <strong>How to Use Style Transfer</strong>
-                  </v-card-title>
-                  <v-card-text style="color: #4e6e62">
-                    <strong>1. Select a Style</strong><br />
-                    Start by selecting a style from the
-                    <strong>Styles</strong> dropdown list. You can choose from predefined
-                    options or you can create a custom style by typing directly into the
-                    selection box. <br /><br />
-
-                    <strong>2. Input Text or Upload a File</strong><br />
-                    After selecting a style, you can either: Type your text into the
-                    provided text box or Upload a file by clicking on the file input. Note
-                    that only
-                    <em>.txt</em>
-                    files are supported.
-
-                    <br /><br />
-
-                    <strong>3. Submit Your Request</strong><br />
-                    Once you've selected a style and provided input (either by typing text
-                    or uploading a file), click the
-                    <strong>Send</strong> button to generate the style-transferred output.
-                    <br /><br />
-
-                    <strong>Tips:</strong><br />
-                    The <strong>Send</strong> button will be enabled only after both a
-                    style is selected and text or a valid file is provided.
-                  </v-card-text>
-
-                  <v-card-actions>
-                    <v-spacer></v-spacer>
-
-                    <v-btn
-                      style="color: #4e6e62"
-                      text="Close"
-                      @click="isActive.value = false"
-                      variant="elevated"
-                      bg-color="#4e6e62"
-                    ></v-btn>
-                  </v-card-actions>
-                </v-card>
-              </template>
-            </v-dialog>
           </v-card-item>
+          <v-btn
+            color="#fcf5de"
+            @click="onClick"
+            :disabled="loading || (text.trim() === '' && !fileSelected) || !selectedStyle"
+            :class="{
+              'custom-disabled': loading || (text.trim() === '' && !fileSelected),
+            }"
+            :loading="loading"
+            class="flex-grow-1"
+            style="position: absolute; bottom: 20px; top: 5vh; right: 1.5%; height: 40px"
+            density="compact"
+          >
+            <strong style="color: #737c75">Send</strong>
+          </v-btn>
+          <v-dialog max-width="500">
+            <template v-slot:activator="{ props: activatorProps }">
+              <v-btn
+                style="
+                  position: absolute;
+                  right: 0.5%;
+                  top: 5px;
+                  width: 18px;
+                  height: 18px;
+                "
+                v-bind="activatorProps"
+                icon
+                color="#f9ece4"
+              >
+                <v-icon color="#9DA8AF" style="font-size: 14px">mdi-help</v-icon>
+              </v-btn>
+            </template>
+
+            <template v-slot:default="{ isActive }">
+              <v-card color="#fafcfd">
+                <v-card-title
+                  style="
+                    color: #4e6e62;
+                    justify-content: center;
+                    text-align: center;
+                    padding-top: 25px;
+                  "
+                >
+                  <strong>How to Use Style Transfer</strong>
+                </v-card-title>
+                <v-card-text style="color: #4e6e62">
+                  <strong>1. Select a Style</strong><br />
+                  Start by selecting a style from the
+                  <strong>Styles</strong> dropdown list. You can choose from predefined
+                  options or you can create a custom style by typing directly into the
+                  selection box. <br /><br />
+
+                  <strong>2. Input Text or Upload a File</strong><br />
+                  After selecting a style, you can either: Type your text into the
+                  provided text box or Upload a file by clicking on the file input. Note
+                  that only
+                  <em>.txt</em>
+                  files are supported.
+
+                  <br /><br />
+
+                  <strong>3. Submit Your Request</strong><br />
+                  Once you've selected a style and provided input (either by typing text
+                  or uploading a file), click the
+                  <strong>Send</strong> button to generate the style-transferred output.
+                  <br /><br />
+
+                  <strong>Tips:</strong><br />
+                  The <strong>Send</strong> button will be enabled only after both a style
+                  is selected and text or a valid file is provided.
+                </v-card-text>
+
+                <v-card-actions>
+                  <v-spacer></v-spacer>
+
+                  <v-btn
+                    style="color: #4e6e62"
+                    text="Close"
+                    @click="isActive.value = false"
+                    variant="elevated"
+                    bg-color="#4e6e62"
+                  ></v-btn>
+                </v-card-actions>
+              </v-card>
+            </template>
+          </v-dialog>
         </v-card>
       </v-col>
     </v-row>
