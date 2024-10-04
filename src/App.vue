@@ -41,7 +41,7 @@
               hide-details
               single-line
               row-height="15"
-              rows="3"
+              rows="4"
               :disabled="fileSelected"
               style="position: absolute; width: 89%; height: 10vh; margin: 2px 0"
             >
@@ -262,7 +262,7 @@ export default {
 
 <style scoped>
 .chat-container {
-  height: 68vh;
+  height: 72vh;
   width: 97.7%;
   overflow-y: auto;
   padding: 10px;
