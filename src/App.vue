@@ -35,7 +35,7 @@
             bottom: 20px;
             left: 42.5%;
             transform: translateX(-50%);
-            width: 100%;
+            width: 150%;
           "
         >
           <v-card-text>
