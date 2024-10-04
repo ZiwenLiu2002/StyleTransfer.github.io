@@ -31,7 +31,7 @@
           class="mx-auto"
           style="position: fixed; bottom: 20px; left: 1.2%; width: 82%; height: 14.5vh"
         >
-          <v-card-item>
+          <v-card-item style="margin-top: 0.2vh; margin-bottom: 0.2vh">
             <v-textarea
               v-model="text"
               bg-color="#f6e7f3"
