@@ -43,7 +43,7 @@
               row-height="15"
               rows="3"
               :disabled="fileSelected"
-              style="width: 92%; height: 90px; margin: 2px 0"
+              style="position: absolute; width: 89%; height: 10vh; margin: 2px 0"
             >
               <template v-slot:label>
                 <span style="color: #12644e; font-size: 18px">Your text here...</span>
@@ -262,7 +262,7 @@ export default {
 
 <style scoped>
 .chat-container {
-  height: 65vh;
+  height: 68vh;
   width: 97.7%;
   overflow-y: auto;
   padding: 10px;
