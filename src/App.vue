@@ -41,7 +41,7 @@
               hide-details
               single-line
               row-height="15"
-              rows="4"
+              rows="3"
               :disabled="fileSelected"
               style="position: absolute; width: 89%; height: 10vh; margin: 2px 0"
             >
