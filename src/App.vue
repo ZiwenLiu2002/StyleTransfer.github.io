@@ -29,7 +29,7 @@
         <v-card
           color="#f6e7eb"
           class="mx-auto"
-          style="position: absolute; bottom: 20px; left: 1.2%; width: 75%"
+          style="position: absolute; bottom: 20px; left: 1.2%; width: 82%"
         >
           <v-card-text>
             <v-textarea
@@ -43,7 +43,7 @@
               row-height="15"
               rows="3"
               :disabled="fileSelected"
-              style="width: 100%; height: 90px; margin: 2px 0"
+              style="width: 92%; height: 90px; margin: 2px 0"
             >
               <template v-slot:label>
                 <span style="color: #12644e; font-size: 18px">Your text here...</span>
@@ -60,7 +60,7 @@
               }"
               :loading="loading"
               class="flex-grow-1"
-              style="position: absolute; top: 43px; left: 1020px; height: 40px"
+              style="position: absolute; top: 43px; right: 1.2%; height: 40px"
               density="compact"
             >
               <strong style="color: #737c75">Send</strong>
@@ -70,8 +70,8 @@
                 <v-btn
                   style="
                     position: absolute;
+                    right: 0.5%;
                     top: 5px;
-                    left: 1088px;
                     width: 18px;
                     height: 18px;
                   "
@@ -167,7 +167,7 @@
   <div>
     <v-file-input
       ref="fileInput"
-      style="position: absolute; right: 1.2%; bottom: 12px; width: 20.5%"
+      style="position: absolute; right: 1.2%; bottom: 12px; width: 14.5%"
       density="compact"
       clearable
       variant="solo"
@@ -184,7 +184,7 @@
     <div class="content"></div>
     <v-combobox
       v-model="selectedStyle"
-      style="position: fixed; bottom: 70px; position: absolute; right: 1.2%; width: 20%"
+      style="position: fixed; bottom: 70px; position: absolute; right: 1.2%; width: 14%"
       density="compact"
       clearable
       label="Styles"
