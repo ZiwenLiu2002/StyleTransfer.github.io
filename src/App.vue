@@ -29,16 +29,9 @@
         <v-card
           color="#f6e7eb"
           class="mx-auto"
-          style="
-            position: fixed;
-            bottom: 20px;
-            left: 1.2%;
-            width: 82%;
-            height: 14.5vh;
-            margin: 0.45vh 0;
-          "
+          style="position: fixed; bottom: 20px; left: 1.2%; width: 82%; height: 14.5vh"
         >
-          <v-card-item>
+          <v-card-item margin="0.45vh 0">
             <v-textarea
               v-model="text"
               bg-color="#f6e7f3"
