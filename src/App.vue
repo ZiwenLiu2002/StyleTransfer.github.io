@@ -262,14 +262,14 @@ export default {
 
 <style scoped>
 .chat-container {
-  height: 70vh;
+  height: 71vh;
   width: 97.7%;
   overflow-y: auto;
   padding: 10px;
   background-color: #f8f8f8;
   border-radius: 10px;
   position: fixed;
-  top: 110px;
+  top: 115px;
   left: 50%;
   transform: translateX(-50%);
 }
