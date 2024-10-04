@@ -29,7 +29,14 @@
         <v-card
           color="#f6e7eb"
           class="mx-auto"
-          style="position: fixed; bottom: 20px; left: 1.2%; width: 82%; height: 14.5vh"
+          style="
+            position: fixed;
+            bottom: 20px;
+            left: 1.2%;
+            width: 82%;
+            height: 14.5vh;
+            margin: 0.45vh 0;
+          "
         >
           <v-card-item>
             <v-textarea
