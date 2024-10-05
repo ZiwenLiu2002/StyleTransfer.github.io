@@ -43,6 +43,7 @@
               row-height="15"
               rows="3"
               :disabled="fileSelected"
+              no-resize
               style="position: absolute; width: 89%; height: 10vh"
             >
               <template v-slot:label>
@@ -289,6 +290,7 @@ export default {
 .chat-bubble.user {
   margin-left: auto;
   background-color: #dde2e6;
+  text-align: right;
 }
 
 /* Auto-reply message (left-aligned) */
@@ -302,6 +304,7 @@ export default {
   font-size: 16px;
   margin-right: auto;
   background-color: #c6d4d7;
+  text-align: left;
 }
 .custom-disabled {
   background-color: #d1c3c3 !important; /* Change the background color */
