@@ -290,7 +290,6 @@ export default {
 .chat-bubble.user {
   margin-left: auto;
   background-color: #dde2e6;
-  text-align: right;
 }
 
 /* Auto-reply message (left-aligned) */
@@ -304,7 +303,6 @@ export default {
   font-size: 16px;
   margin-right: auto;
   background-color: #c6d4d7;
-  text-align: left;
 }
 .custom-disabled {
   background-color: #d1c3c3 !important; /* Change the background color */
